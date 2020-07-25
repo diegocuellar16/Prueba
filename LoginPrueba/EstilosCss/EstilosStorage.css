@@ -1,0 +1,95 @@
+﻿body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+    background-color: #222733;
+    text-align: center;
+}
+
+strong {
+    font-weight: 500;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 38px;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+.my-content {
+    padding: 160px 0 175px 445px;
+}
+
+    .my-content .mydescription {
+        margin: 20px 0 10px 0;
+    }
+
+    .my-content .mydescription {
+        opacity: 0.8;
+    }
+
+.myform-cont {
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: rgba(0,0,0,0.4);
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.myform-bottom .mybtn {
+    width: 210px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+textarea,
+textarea.form-control {
+    height: 50px;
+    vertical-align: middle;
+    background: #fff;
+    border: 3px solid #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    textarea:focus,
+    textarea.form-control:focus {
+        background: #fff;
+        border: 2px solid #1AAE88;
+    }
+
+.myform-bottom .mybtn {
+    height: 50px;
+    background: #1AAE88;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+    .myform-bottom .mybtn:hover, .myform-bottom .mybtn:active {
+        opacity: 0.6;
+        color: #fff;
+    }
+
+    .myform-bottom .mybtn:focus {
+        opacity: 0.6;
+        color: #fff;
+        background: #de651e;
+    }
+
